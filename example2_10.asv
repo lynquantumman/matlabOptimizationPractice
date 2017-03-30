@@ -1,9 +1,0 @@
-U = sym('3*x^2+5*y+2*x*y+6');
-syms x y;
-V = 3*x^2+5*y+2*x*y+6;
-disp(2*U-V-6);
-%=========================
-symbol_matrix = sym('[a,3*b;a,4*b]');
-disp(symbol_matrix);
-%数值矩阵转符号矩阵 sym
-%符号矩阵转数值矩阵 numeric
